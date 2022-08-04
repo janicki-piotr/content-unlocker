@@ -1,0 +1,26 @@
+{
+    "name": "Content unlocker",
+    "description": "Unlocks conent on supported webpages.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "script/script.js"
+    },
+    "permissions": [
+        "cookies",
+        "tabs"
+    ],
+    "host_permissions": ["https://.onet.pl/"],
+    "default_icon": {
+        "16": "/icon/icon-unlock-16.png",
+        "32": "/icon/icon-unlock-32.png",
+        "48": "/icon/icon-unlock-48.png",
+        "128": "/icon/icon-unlock-128.png"
+    },
+    "icons": {
+        "16": "/icon/icon-unlock-16.png",
+        "32": "/icon/icon-unlock-32.png",
+        "48": "/icon/icon-unlock-48.png",
+        "128": "/icon/icon-unlock-128.png"
+    }
+  }
